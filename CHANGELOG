@@ -1,0 +1,15 @@
+05.8.15
+	AIRT-0.4.2 fixed 2 serious problems in process_hunter.c. Also fixed some compatible problems corresponding to 2.6.9 ~ 2.6.12 kernel, so it can work on 2.6.5~ 2.6.12 by now
+
+05.1.5 
+	AIRT-0.4 fixed a few bugs and add made the mod_hunter more heuristic
+
+04.12.23
+	AIRT-0.3 Added the ability of revealing hidden modules then people
+	can not only check them, but also remove them
+
+04.12.6
+	AIRT-0.2 fixed a small bug in sock_hunter.c
+
+04.12.3
+	AIRT-0.1 released,the first release ;-)

@@ -1,0 +1,4 @@
+1.sock_hunter在输出时有误报:
+29193 114.98.101.114	unknow state
+28524 35.32.114.110	unknow state
+2223  0.0.0.0		TCP_LITSEN(正常)
