@@ -1,5 +1,5 @@
 	AIRT --	Advanced Incident Response Tool
-	Developed and maintained by madsys, coolq	v0.4.2
+	Developed and maintained by madsys, coolq
 
 
 [1] What is AIRT?
