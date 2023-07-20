@@ -19,23 +19,27 @@ linux platform. It's useful when you want to know what evil kernel backdoor
 is still resident on your broken system and what the hell it is. 
 It consists of 5 useful tools:
 
-o mod_hunter: 
+mod_hunter: 
+
 	detect hidden module on the suspect system.
 
-o process_hunter: 
+process_hunter: 
+
 	detect hidden process from kernel on the suspect system.
 
-o sock_hunter: 
+sock_hunter: 
+
 	detect hidden net port from kernel on the suspect system 
 	(only supports IPv4 now).
 
-o modumper: 
+modumper: 
+
 	dumps the hidden module into file.
 
-o dismod: 
+dismod: 
+
 	trys to analyze the dumped module (you should use dismod.pl instead 
 	of dismod)
-
 
 Note: it only supports 2.6 kernel now.
 
@@ -46,11 +50,11 @@ Note: it only supports 2.6 kernel now.
 	Unpack the package, enter the directory and run:
 	make
 
-o mod_hunter:
+mod_hunter:
+
 	if you want to check if there is hidden module in your system, just run:
 	insmod mod_hunter.ko && cat /proc/showmodules
- 
-	and then there will be something like that:
+ 	and then there will be something like that:
 
       address                name     size      core_addr     flags
 
@@ -67,15 +71,18 @@ o mod_hunter:
 	
 	Note: 0xaabbccdd is the address of the suspect module and it must be 10 characters
 
-o process_hunter:
+process_hunter:
+
 	if you want to check if there is hidden process in your system:
 	insmod process_hunter.ko && cat /proc/showprocess
 
-o port_hunter:
+port_hunter:
+
 	if you want to check if there is hidden net port in your system:
 	insmod port_hunter.ko && cat /proc/showsocks
 
-o mod_dumper:
+mod_dumper:
+
 	if you want to dump the module:
 	enter the mod_dumper directory and run:
 	insmod modumper.ko mod_name=MODULE && cat /proc/get_mod
@@ -86,7 +93,7 @@ o mod_dumper:
 
 
 [3] What platforms it supports now?
-
+-----------------------------------------
 	It currently supports 2.6.x kernel and Fedora Core2 and SUSE 9.2, 
 	not tested on SMP yet.
 	
