@@ -40,8 +40,7 @@ modumper:
 
 dismod: 
 
-	trys to analyze the dumped module (you should use dismod.pl instead 
-	of dismod)
+	trys to analyze the dumped module (you should use dismod.pl instead of dismod)
 
 Note: it only supports 2.6 kernel now.
 
@@ -96,8 +95,7 @@ mod_dumper:
 
 [3] What platforms it supports now?
 -----------------------------------------
-	It currently supports 2.6.x kernel and Fedora Core2 and SUSE 9.2, 
-	not tested on SMP yet.
+	It currently supports 2.6.x kernel and Fedora Core2 and SUSE 9.2, not tested on SMP yet.
 	
 
 [4] Where can I get the last version?
@@ -109,5 +107,4 @@ mod_dumper:
 
 [5] How can I report a bug?
 ----------------------------
-	We are glad to receive any comments && bugs && suggestion, plz mail to:
-	madsys@gmail.com
+	We are glad to receive any comments && bugs && suggestion, plz mail to:	madsys@gmail.com
