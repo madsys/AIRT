@@ -1,23 +1,25 @@
 	AIRT --	Advanced Incident Response Tool
-
 	Developed and maintained by madsys, coolq	v0.4.2
 
 
 [1] What is AIRT?
+
 [2] How can I use it?
+
 [3] What platforms it supports now?
+
 [4] Where can I get the lastest version?
+
 [5] How can I report a bug?
 
 
 [1] What is AIRT?
 --------------------
 
-	AIRT(Advanced incident response tool) is a tool set for incident response 
-which works on linux platform. AIRT is dedicated to discover the kernel backdoors on 
-linux platform. It's useful when you want to know what evil kernel backdoor 
-is still resident on your broken system and what the hell it is. 
-It consists of 5 useful tools:
+ 	AIRT(Advanced incident response tool) is a tool set for incident response which works on linux platform. AIRT is dedicated to 
+  	discover the kernel backdoors on linux platform. It's useful when you want to know what evil kernel backdoor is still resident
+   	on your broken system and what the hell it is. 
+  	It consists of 5 useful tools:
 
 mod_hunter: 
 
