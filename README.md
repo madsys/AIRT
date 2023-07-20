@@ -13,21 +13,21 @@
 [1] What is AIRT?
 --------------------
 
-	AIRT(Advanced incident response tool) is a set of incident response 
-assistant tools which works on linux platform. It's useful when you want to 
-know what evil kernel backdoor is still resident on your broken system and 
+	AIRT(Advanced incident response tool) is a tool set for incident response 
+which works on linux platform. It's useful when you want to know what 
+evil kernel backdoor is still resident on your broken system and 
 what the hell it is. AIRT is dedicated to discover the kernel backdoors on 
 linux platform. It consists of 5 useful tools:
 
 o mod_hunter: 
-	looks for hidden module on the suspect system.
+	detect hidden module on the suspect system.
 
 o process_hunter: 
-	looks for hidden process from kernel on the suspect system.
+	detect hidden process from kernel on the suspect system.
 
 o sock_hunter: 
-	looks for hidden port from kernel on the suspect system 
-	(only support IPv4 now).
+	detect hidden net port from kernel on the suspect system 
+	(only supports IPv4 now).
 
 o modumper: 
 	dumps the hidden module into file.
@@ -37,7 +37,7 @@ o dismod:
 	of dismod)
 
 
-Note: it only supports 2.6 kernel now, will support 2.4 kernel later.
+Note: it only supports 2.6 kernel now.
 
 
 [2] How can I use it?
